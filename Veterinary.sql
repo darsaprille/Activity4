@@ -74,7 +74,7 @@ VALUES
     (8, 'Amy', 'Black', '135 Walnut St', '555-555-1212', 'amyblack@example.com'),
     (9, 'Mike', 'Gray', '864 Cherry St', '555-555-1212', 'mikegray@example.com'),
     (10, 'Lisa', 'Taylor', '975 Spruce St', '555-555-1212', 'lisataylor@example.com');
-	
+
 INSERT INTO animals(animal_id,name,species,breed,date_of_birth,gender,color,owner_id)
 VALUES(1,'Fido','Dog','Golden Retriever',2018-03-15,'Male','Golden',1),
 (2,'Whiskers','Cat','Siamese',2019-07-20,'Female','Cream',2),
@@ -99,3 +99,11 @@ VALUES
     (8, 'Amy', 'Black', '135 Walnut St', '555-555-1212', 'amyblack@example.com'),
     (9, 'Mike', 'Gray', '864 Cherry St', '555-555-1212', 'mikegray@example.com'),
     (10, 'Lisa', 'Taylor', '975 Spruce St', '555-555-1212', 'lisataylor@example.com');
+
+INSERT INTO doctors(doctorid,dfirstname,dlastname,speciality,phone,email)
+VALUES(1,'Dr.Maria','Santos','General Veterinarian, 987-654-3210,'maria@example.com'),
+(2,'Dr. Antonio','Gonzales','Feline Specialist', 555-123-4567,'antonio@example.com'),
+(3,'Dr. Felipe','Luna','Orthopedic Specialist', 111-222-3333,'felipe@example.com'),
+(4,'Dr. Sofia','Reyes','Dermatology Specialist', 999-888-7777,'sofia@example.com'),
+(5,'Dr. Luis','Torres','Surgery Specialist', 123-555-7777,'luis@example.com'),
+(6,'Dr. Carmen','Fernandez','Ophthalmology Specialist', 333-222-1111,'carmen@example.com');
