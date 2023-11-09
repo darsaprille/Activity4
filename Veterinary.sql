@@ -119,3 +119,15 @@ VALUES(1,'Dr.Maria','Santos','General Veterinarian, 987-654-3210,'maria@example.
 (4,'Dr. Sofia','Reyes','Dermatology Specialist', 999-888-7777,'sofia@example.com'),
 (5,'Dr. Luis','Torres','Surgery Specialist', 123-555-7777,'luis@example.com'),
 (6,'Dr. Carmen','Fernandez','Ophthalmology Specialist', 333-222-1111,'carmen@example.com');
+
+INSERT INTO invoices (invoicesid, appointmentid, totalamount, paymentdate)
+VALUES (1, 1, 100.00, '2023-11-09'),
+       (2, 2, 200.00, '2023-11-10'),
+       (3, 3, 300.00, '2023-11-11'),
+       (4, 4, 400.00, '2023-11-12'),
+       (5, 5, 500.00, '2023-11-13'),
+       (6, 6, 600.00, '2023-11-14'),
+       (7, 7, 700.00, '2023-11-15'),
+       (8, 8, 800.00, '2023-11-16'),
+       (9, 9, 900.00, '2023-11-17'),
+       (10, 10, 1000.00, '2023-11-18');
