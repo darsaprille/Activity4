@@ -31,3 +31,13 @@ CREATE TABLE IF NOT EXIST appointments
 	appointmentdate DATE NOT NULL,
 	reason VARCHAR(100) NOT NULL,
 );
+CREATE TABLE IF NOT EXISTS public.doctors
+(
+doctor_id INT NOT NULL,
+d_first_name VARCHAR(50) NOT NULL,
+d_last_name VARCHAR(50) NOT NULL,
+speciality VARCHAR(100) NOT NULL,
+phone VARCHAR(15) NOT NULL,
+email VARCHAR(100) NOT NULL,
+PRIMARY KEY (doctor_id)
+);
