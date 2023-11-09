@@ -41,3 +41,11 @@ phone VARCHAR(15) NOT NULL,
 email VARCHAR(100) NOT NULL,
 PRIMARY KEY (doctor_id)
 );
+CREATE TABLE IF NOT EXIST invoices
+(
+	invoice_id INT PRIMARY KEY,
+	appointment_id INT NOT NULL,
+	totalamount NUMERIC(10,2) NOT NULL,
+	payment_date DATE NOT NULL,
+	FOREIGN KEY (appointmentid) REFERENCES appointment(appointmentid),
+);
