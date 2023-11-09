@@ -99,3 +99,15 @@ VALUES
     (8, 'Amy', 'Black', '135 Walnut St', '555-555-1212', 'amyblack@example.com'),
     (9, 'Mike', 'Gray', '864 Cherry St', '555-555-1212', 'mikegray@example.com'),
     (10, 'Lisa', 'Taylor', '975 Spruce St', '555-555-1212', 'lisataylor@example.com');
+
+	INSERT INTO invoices (invoicesid, appointmentid, totalamount, paymentdate)
+VALUES (1, 1, 100.00, '2023-11-09'),
+       (2, 2, 200.00, '2023-11-10'),
+       (3, 3, 300.00, '2023-11-11'),
+       (4, 4, 400.00, '2023-11-12'),
+       (5, 5, 500.00, '2023-11-13'),
+       (6, 6, 600.00, '2023-11-14'),
+       (7, 7, 700.00, '2023-11-15'),
+       (8, 8, 800.00, '2023-11-16'),
+       (9, 9, 900.00, '2023-11-17'),
+       (10, 10, 1000.00, '2023-11-18');
